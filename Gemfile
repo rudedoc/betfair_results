@@ -10,3 +10,5 @@ gem 'rspec'
 gem 'webmock'
 
 gem 'feedzirra'
+
+gem 'chronic', "0.10.2"

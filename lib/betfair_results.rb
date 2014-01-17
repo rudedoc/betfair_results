@@ -1,5 +1,6 @@
 require "betfair_results/version"
 require 'feedzirra'
+require 'chronic'
 
 module BetfairResults
   class RSS
@@ -18,7 +19,7 @@ module BetfairResults
 
     def outright_winners
       feed.entries.collect do |entry|
-        clean_summary_string(entry.summary) if !entry.title.match(REGEX_LIST)
+        Result.new(clean_summary_string(entry.summary), get_date_time(entry.title), get_venue_string(entry.title)) if !entry.title.match(REGEX_LIST)
       end.compact
     end
 
@@ -33,9 +34,19 @@ module BetfairResults
       Feedzirra::Feed.fetch_and_parse("http://rss.betfair.com/RSS.aspx?format=rss&sportID=#{sport_id}&countryID=#{country_id}")
     end
 
+    def get_date_time(string)
+      Chronic.parse(string.match(/\w{3,}\s\w{3,}\s\-\s([01]?[0-9]|2[0-3]):[0-5][0-9]/).to_s.gsub(/\-\s/, ""))
+    end
+
+    def get_venue_string(string)
+      string.match(/^\D+/).to_s.split("/ ")[1].strip
+    end
+
     def clean_summary_string(string)
       string.gsub(/\s+/, "")
       string.split(': ')[1].downcase.lstrip
     end
   end
+
+  Result = Struct.new(:name, :race_time, :venue)
 end
