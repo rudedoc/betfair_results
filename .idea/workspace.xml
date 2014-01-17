@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98143390-939d-4da6-b905-a8c4ad49b0c2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/betfair_results.iml" afterPath="$PROJECT_DIR$/.idea/betfair_results.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/betfair_results.rb" afterPath="$PROJECT_DIR$/lib/betfair_results.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/rss_spec.rb" afterPath="$PROJECT_DIR$/spec/rss_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="betfair_results.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389991201648" ignored="false" />
     <file path="/Gemfile" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389996788298" ignored="false" />
     <file path="/betfair_results.gemspec" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389888554842" ignored="false" />
-    <file path="/rss_spec.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1390000364296" ignored="false" />
+    <file path="/rss_spec.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1390001414712" ignored="false" />
     <file path="/spec_helper.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389909327678" ignored="false" />
-    <file path="/betfair_results.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389999614831" ignored="false" />
+    <file path="/betfair_results.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1390000988145" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +35,7 @@
       <file leaf-file-name="rss_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/rss_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="82" selection-start="360" selection-end="360" vertical-scroll-proportion="0.6268657">
+            <state line="4" column="75" selection-start="158" selection-end="158" vertical-scroll-proportion="-0.70149255">
               <folding />
             </state>
           </provider>
@@ -48,7 +44,7 @@
       <file leaf-file-name="betfair_results.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/betfair_results.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="14" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+            <state line="6" column="1" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -406,14 +402,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/betfair_results.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+        <state line="6" column="1" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/rss_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="82" selection-start="360" selection-end="360" vertical-scroll-proportion="0.6268657">
+        <state line="4" column="75" selection-start="158" selection-end="158" vertical-scroll-proportion="-0.70149255">
           <folding />
         </state>
       </provider>

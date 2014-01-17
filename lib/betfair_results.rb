@@ -48,5 +48,5 @@ module BetfairResults
     end
   end
 
-  Result = Struct.new(:name, :race_time, :venue)
+  Result = Struct.new(:name, :scheduled_off_time, :venue)
 end
