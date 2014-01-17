@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98143390-939d-4da6-b905-a8c4ad49b0c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/betfair_results.gemspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/betfair_results.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/rss_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/betfair_results/version.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/betfair_results.rb" afterPath="$PROJECT_DIR$/lib/betfair_results.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/rss_spec.rb" afterPath="$PROJECT_DIR$/spec/rss_spec.rb" />
     </list>
     <ignored path="betfair_results.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389905013964" ignored="false" />
     <file path="/Gemfile" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389910115655" ignored="false" />
     <file path="/betfair_results.gemspec" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389888554842" ignored="false" />
-    <file path="/rss_spec.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389912512748" ignored="false" />
+    <file path="/rss_spec.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389918249024" ignored="false" />
     <file path="/spec_helper.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389909327678" ignored="false" />
-    <file path="/betfair_results.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389918086327" ignored="false" />
+    <file path="/betfair_results.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389918265157" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +44,7 @@
       <file leaf-file-name="rss_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/rss_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="40" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+            <state line="16" column="12" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -60,7 +53,7 @@
       <file leaf-file-name="betfair_results.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/betfair_results.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="18" selection-start="776" selection-end="776" vertical-scroll-proportion="0.61290324">
+            <state line="4" column="20" selection-start="88" selection-end="88" vertical-scroll-proportion="0.19354838">
               <folding />
             </state>
           </provider>
@@ -93,9 +86,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="442" />
+    <option name="x" value="566" />
     <option name="y" value="444" />
-    <option name="width" value="997" />
+    <option name="width" value="873" />
     <option name="height" value="448" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -301,14 +294,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="442" y="444" width="997" height="448" extended-state="0" />
+    <frame x="566" y="444" width="873" height="448" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939759" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22923239" sideWeight="0.68091166" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2636034" sideWeight="0.68091166" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3190883" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -414,14 +407,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/rss_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="40" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+        <state line="16" column="12" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/betfair_results.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="18" selection-start="776" selection-end="776" vertical-scroll-proportion="0.61290324">
+        <state line="4" column="20" selection-start="88" selection-end="88" vertical-scroll-proportion="0.19354838">
           <folding />
         </state>
       </provider>

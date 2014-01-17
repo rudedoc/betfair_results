@@ -14,7 +14,7 @@ module BetfairResults
     end
 
     it "shows me" do
-       @betfair_rss.outright_winners
+       puts @betfair_rss.outright_winners
     end
 
 

@@ -33,8 +33,9 @@ module BetfairResults
         title = entry.title
         winner_name = entry.summary if title !~ /TO BE PLACED/ && title !~ /Match Bets/ && title !~ /Reverse Forecast / && title !~ /Forecast Betting / && title !~ /(W\/O)/ && title !~ /Daily Win Dist Odds/ && title !~ /Will Racing Go Ahead?/
         winner_name.gsub(/\s+/, "") if winner_name != nil
-        names << winner_name.split(': ')[1].inspect if winner_name != nil
+        names << winner_name.split(': ')[1].downcase if winner_name != nil
       end
+      names
     end
   end
 end
