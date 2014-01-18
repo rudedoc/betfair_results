@@ -8,6 +8,7 @@
 require_relative '../lib/betfair_results'
 
 require 'webmock/rspec'
+require 'pry'
 
 
 RSpec.configure do |config|

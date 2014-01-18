@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98143390-939d-4da6-b905-a8c4ad49b0c2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/betfair_results.iml" afterPath="$PROJECT_DIR$/.idea/betfair_results.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/betfair_results.rb" afterPath="$PROJECT_DIR$/lib/betfair_results.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/paulfinlay.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/paulfinlay.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/rss_spec.rb" afterPath="$PROJECT_DIR$/spec/rss_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="betfair_results.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389991201648" ignored="false" />
-    <file path="/Gemfile" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389996788298" ignored="false" />
+    <file path="/Dummy.txt" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1390069377641" ignored="false" />
+    <file path="/Gemfile" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1390075332551" ignored="false" />
     <file path="/betfair_results.gemspec" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389888554842" ignored="false" />
-    <file path="/rss_spec.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1390001414712" ignored="false" />
-    <file path="/spec_helper.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1389909327678" ignored="false" />
-    <file path="/betfair_results.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1390000988145" ignored="false" />
+    <file path="/rss_spec.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1390079998477" ignored="false" />
+    <file path="/spec_helper.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1390075323177" ignored="false" />
+    <file path="/betfair_results.rb" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1390079455667" ignored="false" />
+    <file path="/a.dummy" changelist="98143390-939d-4da6-b905-a8c4ad49b0c2" time="1390079647731" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +41,7 @@
       <file leaf-file-name="rss_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/rss_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="75" selection-start="158" selection-end="158" vertical-scroll-proportion="-0.70149255">
+            <state line="13" column="40" selection-start="433" selection-end="433" vertical-scroll-proportion="0.5371901">
               <folding />
             </state>
           </provider>
@@ -44,7 +50,7 @@
       <file leaf-file-name="betfair_results.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/betfair_results.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="1" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+            <state line="16" column="14" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,9 +83,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="436" />
-    <option name="width" value="1440" />
-    <option name="height" value="460" />
+    <option name="x" value="648" />
+    <option name="y" value="22" />
+    <option name="width" value="792" />
+    <option name="height" value="499" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -107,6 +114,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,7 +181,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,16 +295,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="436" width="1440" height="460" extended-state="0" />
+    <frame x="648" y="22" width="792" height="499" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939759" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16068867" sideWeight="0.68091166" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23592493" sideWeight="0.57425743" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23592493" sideWeight="0.42326733" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3190883" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -371,6 +378,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spec/rss_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="28" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/betfair_results.gemspec">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="17" selection-start="552" selection-end="552" vertical-scroll-proportion="0.6151419" />
@@ -381,35 +395,35 @@
         <state line="24" column="6" selection-start="625" selection-end="625" vertical-scroll-proportion="0.6214511" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="36" selection-start="383" selection-end="383" vertical-scroll-proportion="0.5108359" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/fixtures/RSS.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="141" selection-end="141" vertical-scroll-proportion="0.40298507">
+        <state line="11" column="27" selection-start="152" selection-end="152" vertical-scroll-proportion="0.21970706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="12" selection-start="394" selection-end="394" vertical-scroll-proportion="0.20325203">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/betfair_results.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+        <state line="16" column="14" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/rss_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="75" selection-start="158" selection-end="158" vertical-scroll-proportion="-0.70149255">
+        <state line="13" column="40" selection-start="433" selection-end="433" vertical-scroll-proportion="0.5371901">
           <folding />
         </state>
       </provider>

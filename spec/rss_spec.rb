@@ -1,22 +1,28 @@
 require 'spec_helper'
 module BetfairResults
   describe RSS do
-    before(:each) do
-      @betfair_rss = RSS.find_results_for({:sport_id => 7, :country_id => 2})
+    before(:all) do
+      @betfair_rss = RSS.find_results_for({:sport_id => 7, :country_id => 1})
     end
 
-    describe "#outright_winners" do
-
-      it "shows me" do
-        puts @betfair_rss.outright_winners
+    describe "#method_missing" do
+      it "get_horse_racing_US" do
+        puts RSS.get_horse_racing_US.outright_winners.each { |item| expect(item).to be_a_kind_of(Result) }
       end
 
+      it "get_horse_racing_UK_IRE" do
+        puts RSS.get_horse_racing_UK_IRE.outright_winners.each { |item| expect(item).to be_a_kind_of(Result) }
+      end
+
+    end
+
+
+    describe "#outright_winners" do
       it "returns an array of result objects" do
         @betfair_rss.outright_winners.each { |item| expect(item).to be_a_kind_of(Result) }
       end
 
       describe "result objects" do
-
         it "responds to #name" do
           @betfair_rss.outright_winners.each { |item| expect(item).to respond_to(:name) }
         end

@@ -9,6 +9,8 @@ gem 'rspec'
 
 gem 'webmock'
 
+gem 'pry'
+
 gem 'feedzirra'
 
 gem 'chronic', "0.10.2"
